@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	testData := []int{2, 4, 8, 64, 984230921}
+	testData := []int{2, 4, 7, 8, 64, 984230921}
 	for _, v := range testData {
 		fmt.Println("Target:", v)
 		fmt.Println("Square Root:", mySqrt(v))
